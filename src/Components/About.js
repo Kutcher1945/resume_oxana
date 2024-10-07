@@ -22,6 +22,7 @@ class About extends Component {
     const resumeDownload = "images/resume.pdf"; // Path to the resume in the public folder
     const letter1Download = "images/rhoderick_powell.pdf"; // Path to the resume in the public folder
     const letter2Download = "images/graham_calder.pdf"; // Path to the resume in the public folder
+    const profile = "images/profilepic.jpg"; 
 
     return (
       <section id="about">
@@ -52,13 +53,12 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
+                src={profile}
                 alt="Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
               <h2>Обо Мне!</h2>
-
               <p>{bio}</p>
               <p>{bio2}</p>
               <p>{bio3}</p>
