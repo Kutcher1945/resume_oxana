@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/resume_oxana/static/css/main.bab0b925.chunk.css",
-    "main.js": "/resume_oxana/static/js/main.f73bb409.chunk.js",
-    "main.js.map": "/resume_oxana/static/js/main.f73bb409.chunk.js.map",
+    "main.js": "/resume_oxana/static/js/main.6b5a2311.chunk.js",
+    "main.js.map": "/resume_oxana/static/js/main.6b5a2311.chunk.js.map",
     "runtime-main.js": "/resume_oxana/static/js/runtime-main.42ebb3fa.js",
     "runtime-main.js.map": "/resume_oxana/static/js/runtime-main.42ebb3fa.js.map",
     "static/js/2.a25c794a.chunk.js": "/resume_oxana/static/js/2.a25c794a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.42ebb3fa.js",
     "static/js/2.a25c794a.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.f73bb409.chunk.js"
+    "static/js/main.6b5a2311.chunk.js"
   ]
 }
