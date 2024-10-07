@@ -57,7 +57,7 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>Обо Мне</h2>
+              <h2>Обо Мне!</h2>
 
               <p>{bio}</p>
               <p>{bio2}</p>
