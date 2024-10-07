@@ -207,6 +207,7 @@ ul#nav li.current a { color: #fe6928; }
    width: 120px;
    height: 120px;
    border-radius: 100%;
+   object-fit: cover; /* Ensures image doesn't stretch */
 }
 
 #about .contact-details { 
@@ -258,8 +259,14 @@ ul#nav li.current a { color: #fe6928; }
    }
 
    #about .profile-pic {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: auto; /* Allow the height to adjust based on aspect ratio */
+      max-width: 100%;
+      object-fit: cover; /* Ensure the image maintains aspect ratio */
+   }
+
+   #about .three.columns {
+      text-align: center; /* Center the image on mobile */
    }
 
    #about .contact-details, #about .download {
@@ -271,6 +278,7 @@ ul#nav li.current a { color: #fe6928; }
       margin-top: 10px;
    }
 }
+
 
 
 
