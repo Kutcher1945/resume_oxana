@@ -196,90 +196,34 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
    margin-bottom: 12px;
 }
-
 #about p {
    line-height: 30px;
    color: #ccc;
 }
-
 #about .profile-pic {
    position: relative;
    width: 120px;
    height: 120px;
    border-radius: 100%;
-   object-fit: cover; /* Ensures image doesn't stretch */
 }
-
-#about .contact-details { 
-   width: 41.66667%; 
-}
-
+#about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
 }
-
-#about .main-col { 
-   padding-right: 5%; 
-}
-
+#about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
 }
-
 #about .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-
 #about .download .button i {
    margin-right: 15px;
    font-size: 20px;
 }
-
-/* Add responsiveness for mobile devices */
-@media only screen and (max-width: 768px) {
-   #about {
-      padding-top: 50px;
-      padding-bottom: 30px;
-   }
-
-   #about .main-col {
-      padding-right: 0;
-   }
-
-   #about h2 {
-      font-size: 18px;
-   }
-
-   #about p {
-      font-size: 14px;
-      line-height: 22px;
-   }
-
-   #about .profile-pic {
-      width: 100px;
-      height: auto; /* Allow the height to adjust based on aspect ratio */
-      max-width: 100%;
-      object-fit: cover; /* Ensure the image maintains aspect ratio */
-   }
-
-   #about .three.columns {
-      text-align: center; /* Center the image on mobile */
-   }
-
-   #about .contact-details, #about .download {
-      width: 100%; /* Make the elements take full width */
-   }
-
-   #about .download .button {
-      width: 100%;
-      margin-top: 10px;
-   }
-}
-
-
 
 
 /* ------------------------------------------------------------------ */
@@ -309,80 +253,28 @@ ul#nav li.current a { color: #fe6928; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { 
-   padding-top: 9px; 
-}
-#resume .main-col { 
-   padding-right: 10%; 
-}
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-
-/* Mobile Responsive Styles */
-@media only screen and (max-width: 768px) {
-   #resume {
-      padding-top: 50px;
-      padding-bottom: 50px;
-   }
-
-   #resume h1 {
-      font-size: 11px;
-   }
-
-   #resume h3 {
-      font-size: 17px;
-   }
-
-   #resume .header-col {
-      width: 100%;
-      text-align: left;
-      padding-top: 0;
-      margin-bottom: 20px;
-   }
-
-   #resume .main-col {
-      width: 100%;
-      padding-right: 0;
-      padding-left: 0; /* Add this to remove any potential left padding */
-   }
-
-   .education, .work {
-      margin-bottom: 30px;
-      padding-bottom: 20px;
-   }
-
-   #resume .info {
-      font-size: 9px;
-      margin-bottom: 10px;
-   }
-
-   #resume .date {
-      font-size: 8px;
-   }
-}
-
-
 
 /*----------------------------------------------*/
 /*	Skill Bars
