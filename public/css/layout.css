@@ -364,6 +364,7 @@ ul#nav li.current a { color: #fe6928; }
    #resume .main-col {
       width: 100%;
       padding-right: 0;
+      padding-left: 0; /* Add this to remove any potential left padding */
    }
 
    .education, .work {
@@ -379,8 +380,8 @@ ul#nav li.current a { color: #fe6928; }
    #resume .date {
       font-size: 13px;
    }
-   
 }
+
 
 
 /*----------------------------------------------*/
