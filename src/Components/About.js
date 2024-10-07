@@ -19,9 +19,9 @@ class About extends Component {
     const email = this.props.data.email;
 
     // The resume is stored in the public folder, so we reference it like this:
-    const resumeDownload = "/resume.pdf"; // Path to the resume in the public folder
-    const letter1Download = "/rhoderick_powell.pdf"; // Path to the resume in the public folder
-    const letter2Download = "/graham_calder.pdf"; // Path to the resume in the public folder
+    const resumeDownload = "/images/resume.pdf"; // Path to the resume in the public folder
+    const letter1Download = "/images/rhoderick_powell.pdf"; // Path to the resume in the public folder
+    const letter2Download = "/images/graham_calder.pdf"; // Path to the resume in the public folder
 
     return (
       <section id="about">
