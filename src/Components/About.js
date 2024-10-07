@@ -20,6 +20,8 @@ class About extends Component {
 
     // The resume is stored in the public folder, so we reference it like this:
     const resumeDownload = "/resume.pdf"; // Path to the resume in the public folder
+    const letter1Download = "/rhoderick_powell.pdf"; // Path to the resume in the public folder
+    const letter2Download = "/graham_calder.pdf"; // Path to the resume in the public folder
 
     return (
       <section id="about">
@@ -82,6 +84,20 @@ class About extends Component {
                   <p>
                     <a href={resumeDownload} className="button" download>
                       <i className="fa fa-download"></i> Скачать Резюме
+                    </a>
+                  </p>
+                </div>
+                <div className="columns download">
+                  <p>
+                    <a href={letter1Download} className="button" download>
+                      <i className="fa fa-download"></i> Скачать сопроводительное письмо1
+                    </a>
+                  </p>
+                </div>
+                <div className="columns download">
+                  <p>
+                    <a href={letter2Download} className="button" download>
+                      <i className="fa fa-download"></i> Скачать сопроводительное письмо2
                     </a>
                   </p>
                 </div>
