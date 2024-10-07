@@ -256,7 +256,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .main-col { padding-right: 10%; color: #000;}
 
 .education, .work {
    margin-bottom: 48px;
@@ -276,6 +276,7 @@ ul#nav li.current a { color: #fe6928; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+   color: #000;
 }
 
 /*----------------------------------------------*/
