@@ -235,7 +235,9 @@ ul#nav li.current a { color: #fe6928; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   color: #000; /* Set text color to black */
 }
+
 
 #resume a, #resume a:visited  { color: #0762f9; }
 #resume a:hover, #resume a:focus { color: #313131; }
