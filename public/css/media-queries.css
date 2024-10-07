@@ -59,28 +59,8 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume .main-col {
-      padding-right: 15px; /* Adjust padding to prevent content overflow */
-      padding-left: 15px;  /* Add padding to the left as well */
-      color: #000;
-    }
-  
-    #resume .header-col {
-      text-align: center; /* Center text on small screens */
-      color: #000;
-    }
-  
-    #resume h1 {
-      font-size: 20px; /* Adjust font size for better readability */
-      letter-spacing: 2px; /* Add spacing to improve legibility */
-      color: #000;
-    }
-  
-    #resume h3, #resume .info {
-      text-align: center; /* Center-align work experience details */
-      color: #000;
-    }
-  }
+   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume .main-col { padding-right: 5%; }   
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
